@@ -190,13 +190,13 @@ foreach($data as $row) { // cada elemento do array $data será colocado em $row
     <th>Nascimento original</th>
     <th>Pertence aos vingadores originais</th>
   </tr>
-  <?php foreach($data as $row): >
+  <?php foreach($data as $i => $row): ?>
     <tr>
-      <?php foreach($row as $part): >
+      <?php foreach($row as $part): ?>
         <td><?= $part ?></td>
-      <?php endforeach>
+      <?php endforeach ?>
     </tr>
-  <?php endforeach>
+  <?php endforeach ?>
 </table>
 ```
 
